@@ -25,6 +25,10 @@ class ItemManager {
         tableItems.insert(item, at: index)
     }
     
+    func removeTableItem(at index: Int) {
+        tableItems.remove(at: index)
+    }
+    
     func swapTableItems(indexA: Int, indexB: Int) {
         tableItems.swapAt(indexA, indexB)
     }
